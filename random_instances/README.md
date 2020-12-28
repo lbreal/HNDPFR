@@ -1,4 +1,4 @@
-These folders contain the randomly created data set for the Hub Network Design Problem with Flexible Routes. 
+These folders contain the randomly created data set for the Multimodal Hub Network Design Problem with Flexible Routes. 
 The files are divided according to the potential economies of scale obtained when using a larger vehicle when it is fully utilized (alpha).
 
 The data file format is as follows:
@@ -23,4 +23,5 @@ n n <w[n][n]> <dist[n][n]>              demand from node n to node n and distanc
 
 The fixed operating cost is multiplied by a factor of ten.
 The distance values are rounded upward.
+For every origin i and destination j, such that i != j, if w[i][j] = 0, we change it for 1.
 
